@@ -1,0 +1,25 @@
+{
+  "name": "@spectrum/sp-slider",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/slider.component.js",
+  "module": "dist/slider.component.js",
+  "dependencies": {
+    "@spectrum/sp-base": "file:../base",
+    "@spectrum/sp-config": "file:../config",
+    "@spectrum/sp-icon": "file:../icon",
+    "lit-element": "^2.4.0",
+    "tslib": "^2.0.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "ISC"
+}
